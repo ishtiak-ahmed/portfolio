@@ -3,7 +3,7 @@ import React from 'react';
 const SingleProject = (props) => {
     const { name, image, tag, description, tools, liveSite, clientCode, serverCode } = props.project;
     return (
-        <div className='item row p-5 bg-light mb-5 shadow'>
+        <div className='item row p-2 bg-light mb-5'>
             <div className="col-md-6">
                 <img className='w-100' src={image} alt="" />
             </div>
@@ -14,7 +14,7 @@ const SingleProject = (props) => {
                 <p><strong>Tools used:</strong> {tools}</p>
                 <p>
                     <a href={liveSite} target='_blank' rel='noreferrer'>Live Site</a>
-                    <a href={clientCode} target='_blank' rel='noreferrer'>Clientsite Code</a>
+                    <a href={clientCode} target='_blank' rel='noreferrer'>Client Code</a>
                     <a href={serverCode} target='_blank' rel='noreferrer'>Server Code</a>
                 </p>
             </div>

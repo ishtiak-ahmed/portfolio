@@ -1,7 +1,10 @@
 body {
-  background: #92bde7;
-  color: #485e74;
+  background: #b0bec5;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #fff;
 }
 
 ul {
@@ -63,14 +66,14 @@ ul {
 }
 
 .contact form button {
-  background: #c9e6ff;
+  background: #42a5f5;
   border: 0;
   text-transform: uppercase;
 }
 
 .contact form button:hover,
 .contact form button:focus {
-  background: #92bde7;
+  background: #42a5f5;
   color: #fff;
   outline: 0;
   transition: background-color 2s ease-out;

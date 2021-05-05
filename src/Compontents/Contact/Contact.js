@@ -15,7 +15,7 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <div className='p-5'>
+        <section className='py-5'>
             <h2>Contact Me</h2>
             <div className="contact">
                 <form className="contact-form" onSubmit={sendEmail}>
@@ -48,7 +48,7 @@ const Contact = () => {
                 </form>
             </div>
 
-        </div>
+        </section>
     );
 };
 

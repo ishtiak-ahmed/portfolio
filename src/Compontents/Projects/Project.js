@@ -30,11 +30,13 @@ const projectsData = [
 
 const Project = () => {
     return (
-        <section className='container'>
-            <h2 className='heading text-center fw-bold'>Recent Projects</h2>
-            {
-                projectsData.map((project, index) => <SingleProject key={index} project={project}></SingleProject>)
-            }
+        <section className='py-5'>
+            <div className="container">
+                <h2 className='heading text-center m-3 fw-bold'>Recent Projects</h2>
+                {
+                    projectsData.map((project, index) => <SingleProject key={index} project={project}></SingleProject>)
+                }
+            </div>
         </section>
     );
 };
