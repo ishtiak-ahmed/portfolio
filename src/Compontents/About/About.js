@@ -3,8 +3,8 @@ import Contact from '../Contact/Contact';
 
 const About = () => {
     return (
-        <section style={{ backgroundColor: '#37474F' }} className='text-white p-5'>
-            <h2 className='text-center heading fw-bold m-3'>About me</h2>
+        <section style={{ backgroundColor: '#37474F' }} className='text-white py-5'>
+            <h2 className='text-center highlights fw-bold m-3'>About me</h2>
             <div className="container">
                 <div className="row">
                     <div className="col-md-7">
