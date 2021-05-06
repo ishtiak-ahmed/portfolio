@@ -20,17 +20,17 @@ const Blog = () => {
     ]
 
     return (
-        <section className='p-5'>
+        <section className='py-5'>
             <h2 className=' text-center'>My Blog</h2>
             <div className="container">
                 <div className="row">
                     {
                         blogs.map(blog => {
                             return (
-                                <div className='col-md-4 p-4'>
-                                    <div className="blog-item bg-dark p-3">
+                                <div className='col-md-4 p-2'>
+                                    <div className="blog-item">
                                         <img className='card-img-top' src={blog.thumb} alt="" />
-                                        <a href={blog.link}><h4>{blog.title}</h4></a>
+                                        <h5><a href={blog.link} target='_blank' rel='no-referrer'>{blog.title}</a></h5>
                                     </div>
                                 </div>
                             )
