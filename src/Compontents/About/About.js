@@ -7,7 +7,7 @@ const About = () => {
             <h2 className='text-center highlights fw-bold m-3'>About me</h2>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-9">
                         <p>I am Ishtiak Ahmed, form Joypurhat, Bangladesh. I am a passionate Web Developer. Normally I use <strong>React, Bootstrap, Font Awesome</strong> to build the client side. For Back end I am currently using <strong>Node JS, Express JS, MongoDB</strong>.<br /> </p>
                         <p>I am open to learn New Technology and Improve my skills.</p>
                         <p>
@@ -16,7 +16,7 @@ const About = () => {
             Except coding, I also love to read books, solve puzzle, play chess.
             </p>
                     </div>
-                    <div className="col-md-4 circle">
+                    <div className="col-md-3 circle">
                         <img src={photo} className='w-100 rounded' alt="" />
                     </div>
                 </div>

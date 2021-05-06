@@ -16,7 +16,7 @@ const Contact = () => {
     }
     return (
         <section className='py-5'>
-            <h2>Contact Me</h2>
+            <h2 className='text-center'>Contact Me</h2>
             <div className="contact">
                 <form className="contact-form" onSubmit={sendEmail}>
                     <p>
