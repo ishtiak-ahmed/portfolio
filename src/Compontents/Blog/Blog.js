@@ -21,7 +21,7 @@ const Blog = () => {
 
     return (
         <section className='py-5'>
-            <h2 className=' text-center'>My Blog</h2>
+            <h2 className=' text-center fw-bold'>My Blog</h2>
             <div className="container">
                 <div className="row">
                     {

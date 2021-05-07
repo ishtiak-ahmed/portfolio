@@ -15,9 +15,9 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <section className='py-5'>
-            <h2 className='text-center'>Contact Me</h2>
-            <div className="contact">
+        <section style={{ backgroundColor: '#37474F' }} className='py-5 text-white'>
+            <h2 className='text-center fw-bold'>Contact Me</h2>
+            <div className="contact container">
                 <form className="contact-form" onSubmit={sendEmail}>
                     <p>
                         <label htmlFor="">Name</label>

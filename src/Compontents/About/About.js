@@ -20,7 +20,6 @@ const About = () => {
                         <img src={photo} className='w-100 rounded' alt="" />
                     </div>
                 </div>
-                <Contact></Contact>
             </div>
         </section>
     );
