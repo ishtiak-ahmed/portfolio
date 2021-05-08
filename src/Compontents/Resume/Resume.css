@@ -1,0 +1,15 @@
+.skillsItem {
+  text-transform: uppercase;
+}
+.resume > div {
+  margin-bottom: 2em;
+}
+.resume li a {
+  padding-left: 1em;
+}
+.resume a:hover {
+  color: #64ffda;
+}
+.project-list > li {
+  margin: 1em 0;
+}

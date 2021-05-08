@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import apps from '../../../images/apps.svg'
+import banner from '../../../images/banner.jpg'
 import './Header.css'
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
                         <Link className='button button-secondary' to='projects'>Explore Projects</Link>
                     </div>
                     <div className="col-md-7 banner">
-                        <img className='w-100' src={apps} alt="" />
+                        <img className='w-100' src={banner} alt="" />
                     </div>
                 </div>
             </div>
