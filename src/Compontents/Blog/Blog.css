@@ -1,0 +1,8 @@
+.blog-item .img {
+  height: 250px;
+  overflow: hidden;
+}
+.blog-item .img img {
+  width: 100%;
+  height: 100%;
+}
