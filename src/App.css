@@ -68,7 +68,7 @@ header {
 }
 .header .intro h4 {
   animation: moveLeft;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-timing-function: ease-in;
 }
 .header .intro h5 {
