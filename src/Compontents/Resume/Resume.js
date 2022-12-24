@@ -8,13 +8,13 @@ const Resume = () => {
                 <div>
                     <h2>My Resume</h2>
                     <a className='button button-primary' href='https://drive.google.com/uc?export=download&id=1-k0oTG7HTX_bw7YlytvDR0g9Y4Cqiaz-&fbclid=IwAR39B3MTxTajAV0SklTaM5DgXS0lP5q24_LTSS4QKSh9S1nqzbeqdxV_TNI'>Download Resume</a> <br />
-                    <a className='button button-secondary' href="https://github.com/ishtiak-ahmed" target='_blank' rel='noreferrer'>Github Profile</a> <br /> <a className='button button-secondary' href="https://www.linkedin.com/in/ishtiak-ahmed-1606/" target='_blank' rel='noreferrer'>Linkedin Profile</a>
+                    <a className='button button-secondary' href="https://github.com/ishtiak-ahmed" target='_blank' rel='noreferrer'>Github Profile</a> <br /> <a className='button button-secondary' href="https://www.linkedin.com/in/ishtiak-aahmed/" target='_blank' rel='noreferrer'>Linkedin Profile</a>
                 </div>
                 <div className="resume">
                     <div className="header">
                         <h3 className='text-uppercase fw-bold'>Ishtiak Ahemd</h3>
-                        <h6>MERN Stack Web Developer</h6>
-                        <p><a href="https://www.linkedin.com/in/ishtiak-ahmed-1606/" target='_blank' rel='noreferrer'>Linkedin.com/in/ishtiak-ahmed-1606</a></p>
+                        <h6>Web Application Developer</h6>
+                        <p><a href="https://www.linkedin.com/in/ishtiak-aahmed/" target='_blank' rel='noreferrer'>Linkedin.com/in/ishtiak-aahmed</a></p>
                     </div>
                     <div className="skills">
                         <h5 className="text-uppercase">Development Skills</h5>
